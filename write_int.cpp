@@ -17,6 +17,7 @@ main(){
     myFile = fopen("sample.txt", "w");
     for(int i=0; i<5; i++){
         fprintf(myFile, "%d", numberArray[i]);
+		fprintf(myFile, "%d", numberArray[i]);
     }
     cout << sum;
 
