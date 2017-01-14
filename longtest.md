@@ -72,10 +72,10 @@ False. You do not assign that way. We have `strcpy`. Proper way should be:
 ## 15. char str[10] = "Hello"; if(strcmp(aString,"Hello")==0){cout << "Hello";} is valid?
 False. Bonus kasi nagkamali ako ng pagpili ng tamang choice. LoL. Upon proper formatting, it should be:
 
-  char str[10] = "Hello"; 
-  if(strcmp(aString,"Hello")==0){
-  	cout << "Hello";
-  }
+	char str[10] = "Hello"; 
+	if(strcmp(aString,"Hello")==0){
+		cout << "Hello";
+	}
 
  
 There is no `aString` variable.
